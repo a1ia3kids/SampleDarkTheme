@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/DarkTheme">
+        android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Sample1Activity" />
-        <activity android:name=".Sample2Activity" />
+        <activity
+            android:name=".Sample2Activity"
+            android:configChanges="uiMode" />
     </application>
 
 </manifest>

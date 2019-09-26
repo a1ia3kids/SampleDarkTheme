@@ -6,6 +6,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!--   DayNightを継承しなくてもダークモードに対応     -->
+        <item name="android:forceDarkAllowed">true</item>
     </style>
     <!-- Style Dark Theme   -->
     <style name="DarkTheme" parent="Theme.AppCompat.DayNight">
